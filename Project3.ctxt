@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Project3
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ testEntityClass()
+comment3.params=stolat\ borogravia\ quirm
+comment3.target=void\ go(MailCoach,\ MailCoach,\ MailCoach)
+comment3.text=\r\n\ Method\ go\ takes\ 3\ MailCoach\ objects\ and\ returns\ nothing,\r\n\ heavily\ involves\ logic\ to\ compute\ destinations,\ types\ of\ mail,\ and\ quantity\ of\ mail,\r\n\ continues\ inside\ while\ loop\ until\ condition\ is\ met\r\n\ \r\n\ @param\ object\r\n\ @return\ nothing\r\n
+comment4.params=stolat\ borogravia\ quirm
+comment4.target=void\ printMenu(MailCoach,\ MailCoach,\ MailCoach)
+comment4.text=\r\n\ Method\ printMenu\ takes\ 3\ MailCoach\ objects\ and\ returns\ nothing,\r\n\ prints\ the\ amount\ of\ capacity\ remaining\ for\ each\ location\ and\ determines\ if\ any\ are\ dispatched\r\n\ \r\n\ @param\ object\r\n\ @return\ nothing\r\n
+comment5.params=d\ type\ quantity
+comment5.target=void\ loadUp(MailCoach,\ java.lang.String,\ int)
+comment5.text=\r\n\ Method\ loadUp\ takes\ MailCoach\ object,\ String,\ and\ int\ and\ returns\ nothing,\r\n\ inputs\ come\ from\ go\ Method\ when\ loadUp\ is\ called,\ \r\n\ determines\ which\ type\ of\ mail\ to\ load\ and\ calls\ upon\ the\ setters\ in\ MailCoach\ accordingly,\r\n\ prints\ out\ statements\ based\ on\ loading\ amount\ and\ type\r\n\ \r\n\ @param\ object,\ String,\ int\r\n\ @return\ nothing\r\n
+comment6.params=stolat\ borogravia\ quirm
+comment6.target=void\ printReport(MailCoach,\ MailCoach,\ MailCoach)
+comment6.text=\r\n\ Method\ printReport\ 3\ MailCoach\ objects\ and\ returns\ nothing,\r\n\ used\ for\ printing\ the\ final\ report\ for\ each\ location\ and\ the\ quantity\ of\ mail\ sent\ out\ by\ each\ one,\r\n\ only\ is\ called\ on\ when\ all\ coaches\ have\ been\ dispatched\r\n\ \r\n\ @param\ object\r\n\ @return\ nothing\r\n
+numComments=7
